@@ -19,7 +19,7 @@ jobs:
         node-version: 10.x
     - name: npm install and build
       run: |
-        npm npm ci
+        npm ci
         npm run build
 
     - name: Deploy
